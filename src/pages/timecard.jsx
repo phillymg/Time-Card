@@ -93,32 +93,7 @@ export default function TimeCard() {
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Monday</td>
-                    <td>
-                        <InputGroup>
-                            <Form.Control id="mondayTimeIn"></Form.Control>
-                        </InputGroup>
-                    </td>
-                    <td>
-                        <InputGroup>
-                            <Form.Control id="mondayTimeOut"></Form.Control>
-                        </InputGroup>
-                    </td>
-                    <td>
-                        <InputGroup>
-                            <Form.Control id="mondayLunch"></Form.Control>
-                        </InputGroup>
-                    </td>
-                    <td id="totalMond">total</td>
-                    <td>
-                        <InputGroup>
-                            <Form.Control id="mondayPTO"></Form.Control>
-                        </InputGroup>
-                    </td>
-                    <td id="newMond"></td>
-                    <td></td>
-                </tr>
+                <DayOfWeek dayweek="Monday" timein="mondayTimeIn" timeout="tuesdayTimeOut" lunch="mondayLunch" total="totalMond" pto="mondayPTO" newtotal="newMond" date=""></DayOfWeek>
                 <tr>
                     <td>Tuesday</td>
                     <td>
